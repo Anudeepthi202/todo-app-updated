@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",             // Modern ECMAScript features
+    "module": "commonjs",           // Node.js compatible modules
+    "outDir": "./dist",             // Output directory
+    "rootDir": "./src",             // Source directory
+    "strict": true,                 // Enable strict type checking
+    "esModuleInterop": true,        // Better module interoperability
+    "skipLibCheck": true,           // Skip library declaration checks
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"      // Node.js-style module resolution
+  },
+  "include": ["src/**/*"],          // Files to compile
+  "exclude": ["node_modules"]       // Files to ignore
+}
